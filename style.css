@@ -9,6 +9,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .header,
 .footer {
     background-color: #1F2937;
@@ -43,6 +44,44 @@ a {
     color: white;
     text-decoration: none;
 }
+
 .about {
     display: flex;
+    padding: 48px;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+
+.description {
+text-align: start;
+padding: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image-placeholder {
+    display: flex;
+    background-color: grey;
+    height: 250px;
+    width: 650px;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color:#3882F6;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
