@@ -1,13 +1,9 @@
-* {
-    box-sizing: border-box;
-}
 
 body{
     height: 100vh;
-    overflow: hidden;
     margin: 0;
     font-family: Roboto, sans-serif;
-    vertical-align: baseline;
+    overflow: auto;
     
 }
 
@@ -109,4 +105,23 @@ button {
     border: solid;
     border-color: #3882F6;
     border-radius: 30px;
+}
+
+.testimony {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    max-width: 900px;
+    padding: 44px;
+}
+
+.author {
+    text-align: end;
 }
